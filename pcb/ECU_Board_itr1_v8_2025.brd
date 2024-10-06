@@ -2906,8 +2906,8 @@ design rules under a new name.</description>
 <element name="C7" library="IIT_BOMBAY_Racing" package="E2,5-6" value="100uF" x="83.185" y="61.849" smashed="yes" rot="R90">
 <attribute name="VALUE" x="87.63" y="61.976" size="0.8128" layer="21" ratio="10" rot="R90"/>
 </element>
-<element name="C8" library="IIT_BOMBAY_Racing" package="E2,5-6" value="100uF" x="82.931" y="55.88" smashed="yes" rot="R270">
-<attribute name="VALUE" x="80.899" y="51.562" size="0.8128" layer="21" ratio="10"/>
+<element name="C8" library="IIT_BOMBAY_Racing" package="E2,5-6" value="100uF" x="64.135" y="55.626" smashed="yes" rot="R270">
+<attribute name="VALUE" x="62.103" y="51.308" size="0.8128" layer="21" ratio="10"/>
 </element>
 <element name="D1" library="SamacSys_Parts" package="SOT96P237X111-3N" value="SZNUP2105LT1G" x="137.16" y="71.882" smashed="yes">
 <attribute name="DESCRIPTION" value="Dual Bi-Directional TVS Diode, 350W peak, 3-pin SOT-23" x="190.5" y="-34.798" size="1.778" layer="27" display="off"/>
@@ -3592,8 +3592,8 @@ design rules under a new name.</description>
 <wire x1="139.344" y1="23.368" x2="139.344" y2="27.686" width="0" layer="19" extent="1-1"/>
 <wire x1="141.224" y1="23.368" x2="139.344" y2="23.368" width="0" layer="19" extent="1-1"/>
 <wire x1="83.185" y1="63.119" x2="91.059" y2="65.262" width="0" layer="19" extent="16-16"/>
-<wire x1="82.931" y1="54.61" x2="83.185" y2="63.119" width="0" layer="19" extent="1-1"/>
-<wire x1="78.867" y1="52.533" x2="82.931" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="64.135" y1="54.356" x2="83.185" y2="63.119" width="0" layer="19" extent="1-1"/>
+<wire x1="78.867" y1="52.533" x2="64.135" y2="54.356" width="0" layer="19" extent="1-1"/>
 <wire x1="75.057" y1="52.66" x2="78.867" y2="52.533" width="0" layer="19" extent="1-16"/>
 <wire x1="70.866" y1="56.52" x2="75.057" y2="52.66" width="0" layer="19" extent="16-16"/>
 <wire x1="70.866" y1="56.52" x2="70.866" y2="56.52" width="0" layer="19" extent="1-16"/>
@@ -4502,13 +4502,11 @@ design rules under a new name.</description>
 <contactref element="IC9" pad="2"/>
 <contactref element="SV3" pad="1"/>
 <contactref element="F2" pad="P$2"/>
-<wire x1="82.931" y1="57.15" x2="84.455" y2="57.15" width="0.6096" layer="16"/>
+<wire x1="64.135" y1="56.896" x2="84.709" y2="56.896" width="0.6096" layer="16"/>
 <wire x1="86.36" y1="55.245" x2="89.408" y2="55.245" width="0.6096" layer="16"/>
-<wire x1="86.36" y1="55.245" x2="84.455" y2="57.15" width="0.6096" layer="16"/>
-<wire x1="82.931" y1="57.15" x2="80.264" y2="54.483" width="0.6096" layer="16"/>
-<wire x1="80.264" y1="54.483" x2="80.264" y2="53.34" width="0.6096" layer="16"/>
-<wire x1="80.264" y1="53.34" x2="79.584" y2="52.66" width="0.6096" layer="16"/>
-<wire x1="78.867" y1="52.66" x2="79.584" y2="52.66" width="0.6096" layer="16"/>
+<wire x1="86.36" y1="55.245" x2="84.709" y2="56.896" width="0.6096" layer="16"/>
+<wire x1="78.867" y1="52.66" x2="68.371" y2="52.66" width="0.6096" layer="16"/>
+<wire x1="68.371" y1="52.66" x2="64.135" y2="56.896" width="0.6096" layer="16"/>
 <wire x1="77.597" y1="52.66" x2="78.867" y2="52.66" width="0.6096" layer="16"/>
 <wire x1="76.327" y1="51.435" x2="76.327" y2="52.66" width="0.6096" layer="16"/>
 <wire x1="76.327" y1="52.66" x2="77.597" y2="52.66" width="0.6096" layer="16"/>
